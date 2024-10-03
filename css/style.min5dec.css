@@ -1040,7 +1040,7 @@ h6 {
 
 .hello-about._watcher-view .hello-about__body {
     -webkit-animation: hello 0.45s ease-out 0.2s forwards;
-    animation: hello 0.45s ease-out 0.2s forwards;
+    /* animation: hello 0.45s ease-out 0.2s forwards; */
 }
 
 .hello-about__body {
@@ -1053,9 +1053,9 @@ h6 {
     align-items: center;
     /* margin-right: 3rem; */
     padding: 1rem;
-    -webkit-transform-origin: left;
+    /* -webkit-transform-origin: left; */
     transform-origin: left;
-    -webkit-transform: translateX(70vw) rotate(0) scaleX(1.4) scaleY(1);
+    /* -webkit-transform: translateX(70vw) rotate(0) scaleX(1.4) scaleY(1); */
     transform: translateX(70vw) rotate(0) scaleX(1.4) scaleY(1);
 }
 
@@ -3633,8 +3633,8 @@ h6 {
         text-align: center;
     }
     .hello-about._watcher-view .hello-about__body {
-        -webkit-animation: hello-2 0.45s ease-out 0.2s forwards;
-        animation: hello-2 0.45s ease-out 0.2s forwards;
+        /* -webkit-animation: hello-2 0.45s ease-out 0.2s forwards; */
+        /* animation: hello-2 0.45s ease-out 0.2s forwards; */
     }
     .hello-about__body {
         opacity: 1;
